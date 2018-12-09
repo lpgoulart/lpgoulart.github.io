@@ -188,7 +188,12 @@ footer .glyphicon {
 .social_icons {
     display: block;
 }
-
+.phone {
+    display: none;
+}
+.not-phone {
+    display: initial;
+}
 
 @keyframes slide {
   0% {
@@ -225,6 +230,12 @@ footer .glyphicon {
     .social_icons {
         margin-top: 30px;
         display: flex;
+    }
+    .phone {
+        display: initial;
+    }
+    .not-phone {
+        display: none;
     }
 }
 @media screen and (max-width: 480px) {
