@@ -64,78 +64,9 @@ h4 {
 .bg-blue {
     background-color: #00477b;
 }
-.logo-small {
-    color: #f4511e;
-    font-size: 50px;
-}
-.logo {
-    font-size: 200px;
-}
-.renale-logo img{
-    width:250px;
-    height:250px;
-}
-.thumbnail {
-    padding: 0 0 15px 0;
-    border: none;
-    border-radius: 0;
-}
-.thumbnail img {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 10px;
-}
-.item h4 {
-    font-size: 19px;
-    line-height: 1.375em;
-    font-weight: 400;
-    font-style: italic;
-    margin: 70px 0;
-}
-.item span {
-    font-style: normal;
-}
-.panel {
-    border: 1px solid #f4511e; 
-    border-radius:0 !important;
-    transition: box-shadow 0.5s;
-}
-.panel:hover {
-    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
-}
-.panel-footer .btn:hover {
-    border: 1px solid #f4511e;
-    background-color: #fff !important;
-    color: #f4511e;
-}
-.panel-heading {
-    color: #fff !important;
-    background-color: #f4511e !important;
-    padding: 25px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-.panel-footer {
-    background-color: white !important;
-}
-.panel-footer h3 {
-    font-size: 32px;
-}
-.panel-footer h4 {
-    color: #aaa;
-    font-size: 14px;
-}
-.panel-footer .btn {
-    margin: 15px 0;
-    background-color: #f4511e;
-    color: #fff;
-}
 .navbar {
     margin-bottom: 0;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.7);
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -148,27 +79,12 @@ h4 {
     color: black !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    background-color: #fff !important;
+    background-color: black!important;
+    color: white!important;
 }
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
-}
-footer {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    height: 50px;
-    margin: auto;
-}
-.glyphicon {
-    color: #00477b;
-}
-footer .glyphicon {
-    font-size: 20px;
-    color: #00477b;
-}
-.contato .glyphicon {
-    color: white;
 }
 .slideanim {visibility:hidden;}
 .slide {
@@ -216,10 +132,6 @@ footer .glyphicon {
   }
 }
 @media screen and (max-width: 768px) {
-    .col-sm-4 {
-        text-align: center;
-        margin: 25px 0;
-    }
     .btn-lg {
         width: 100%;
         margin-bottom: 35px;
@@ -237,9 +149,4 @@ footer .glyphicon {
     .not-phone {
         display: none;
     }
-}
-@media screen and (max-width: 480px) {
-  .logo {
-      font-size: 150px;
-  }
 }
