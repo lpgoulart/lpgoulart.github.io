@@ -2,7 +2,6 @@ body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
     color: #818181;
-    font-family: 'Lato', sans-serif;
     text-align: justify;
     background-color: #f6f6f6;
 }
@@ -44,7 +43,6 @@ h4 {
     background: lightgray;
 }
 .jumbotron {
-  background-color: #f6f6f6;
   font-family: 'Cinzel', serif;
   margin: auto;
   min-height: 50vh;
