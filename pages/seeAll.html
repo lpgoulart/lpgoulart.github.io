@@ -6,21 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet/less" type="text/css" href="../css/styles.less" />
+  <link rel="stylesheet/less" type="text/css" href="../css/navbar.less" />
 
 </head>
-    <body onload="loadAll()">
-    <!-- <body> -->
-        <div id="page">
+    <body id="body" onload="loadAll(); carregar(); typing();">
+        <!-- <body> -->
+            <canvas id="canvas"></canvas>
+            <div id="page">
+    
+                <div class="navbar">
+    
+                    <span class="navbar-toggle" onclick="toggle()">
+                        <span style="color: black;">&#9776;</span>
+                    </span>
+                  
+                    <h2 style="cursor: pointer;">
+                      <span>LG</span>
+                    </h2>
+                  
+                    <nav id="menuBar">
+                      <ul>
+                        <li onclick="toggle()">HOME</li>
+                        <li onclick="toggle(); showAll()">PROJECTS</li>
+                        <li onclick="toggle()">ABOUT</li>
+                      </ul>
+                    </nav>
+                  
+                </div>
+    
+                <div class="welcome" style="padding: 60px 0;"> 
+                    <h1>
+                        Projects
+                    </h1>
+                </div>
 
-            <section id="works" class="challenges"></section>
-        </div>
-        
-        <div style="text-align: center;">
-            <a href="/index.html">voltar</a>
-        </div>
-        
-        <script src="../js/projects.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js" ></script>
-        
-    </body>
+                <div id="works" class="challenges"></div>
+
+
+                <div style="text-align: center; padding: 20px 0 100px 0">
+                    <a class="btn" href="/index.html">voltar</a>
+                </div>
+    
+                <footer style="text-align: center; padding: 50px;">
+                    <p>
+                        By Leonardo Goulart &copy; Lpgoulart
+                    </p>
+                </footer>
+            </div>
+            
+            
+            
+            <script src="../js/projects.js"></script>
+            <script src="../js/letters.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js" ></script>
+            
+        </body>
 </html>
