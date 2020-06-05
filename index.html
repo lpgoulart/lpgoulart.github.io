@@ -7,10 +7,12 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet/less" type="text/css" href="./css/styles.less" />
   <link rel="stylesheet/less" type="text/css" href="./css/navbar.less" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
 </head>
-    <body onload="load()">
+    <body id="body" onload="load(); carregar(); typing();">
     <!-- <body> -->
+        <canvas id="canvas"></canvas>
         <div id="page">
 
             <div class="navbar">
@@ -31,22 +33,63 @@
                   </ul>
                 </nav>
               
-              </div>
+            </div>
 
-            <section style="text-align: center;">
+            <div class="welcome">
+                <h1>
+                    <span
+                        class="txt-rotate"
+                        data-period="800"
+                        data-rotate='[ "Bem Vindo", "Welcome", "Bienvenido", "Willkommen", "Benvenuto" ]'></span>
+                </h1>
+            </div>
+
+            <div class="presentation">
+                <div class="img">
+                    <img src="./assets/me.jpg" alt="me">
+                </div>
+                <div class="about-me">
+                    <p>
+                        Olá, Meu nome é Leonardo Goulart, sou formado como Técnico em Mecatrônica pela Fundação Nokia de Ensino ( 2015 ) e atualmente bacharelando em Tecnologia da Informação pela Universidade Federal do Rio Grande do Norte - UFRN.
+                    </p>
+                    <p>
+                        Sou desenvolvedor com foco no Frontend. Gosto de desenvolver projetos avulsos no tempo livre para praticar meus conhecimentos e aprimorar minhas habilidades.
+                    </p>
+                    <p>
+                        Tenho paixão pelo desenvolvimento frontend, área na qual atuo e estudo aos poucos backend com NodeJs para poder desenvolver aplicações mais robustas no futuro. Tenho experiência com:
+                    </p>
+
+                    <div class="icons">
+                        <i class="icon fab fa-github" title="Git"></i>
+                        <i class="icon fab fa-html5" title="HTML5"></i>
+                        <i class="icon fab fa-css3" title="CSS3"></i>
+                        <i class="icon fab fa-less"title="LESS"></i>
+                        <i class="icon fab fa-js-square" title="JavaScript"></i>
+                        <i class="icon fab fa-angular" title="Angular"></i>
+                        <i class="icon fab fa-react" title="ReactJs"></i>
+                        <i class="icon fab fa-vuejs" title="VueJs"></i>
+                        <i class="icon fab fa-node" title="NodeJs"></i>
+                    </div>
+                </div>
+            </div>
+
+            <section style="text-align: center; padding-top: 60px;">
                 <h2>
-                    Projects Done so far
+                    Alguns projetos já desenvolvidos
                 </h2>
                 <div id="works" class="challenges"></div>
             </section>
 
+            <div style="text-align: center;">
+                <button id="more" onclick="more()">more</button>
+            </div>
+
         </div>
-        <div style="text-align: center;">
-            <button id="more" onclick="more()">more</button>
-        </div>
+        
         
         
         <script src="./js/projects.js"></script>
+        <script src="./js/letters.js"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.11.1/less.min.js" ></script>
         
     </body>
