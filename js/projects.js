@@ -2,7 +2,10 @@ projects = [
     {
         id: 1,
         title: "primeiro",
-        img: '../assets/dashboard.png',
+        img: {
+            path: '../assets/dev.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -10,7 +13,10 @@ projects = [
     {
         id: 2,
         title: "segundo",
-        img: '../assets/mexico.png',
+        img: {
+            path: '../assets/mexico.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -18,7 +24,10 @@ projects = [
     {
         id: 3,
         title: "terceiro",
-        img: '../assets/paint.png',
+        img: {
+            path: '../assets/nefroatlas.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -26,7 +35,10 @@ projects = [
     {
         id: 4,
         title: "querto",
-        img: '../assets/dev.png',
+        img: {
+            path: '../assets/forex.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -34,7 +46,10 @@ projects = [
     {
         id: 5,
         title: "primeiro",
-        img: '../assets/airplane.png',
+        img: {
+            path: '../assets/quarkdocs.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -42,7 +57,10 @@ projects = [
     {
         id: 6,
         title: "segundo",
-        img: '../assets/audrey.png',
+        img: {
+            path: '../assets/bruna.png',
+            width: "70%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -50,7 +68,10 @@ projects = [
     {
         id: 7,
         title: "terceiro",
-        img: '../assets/bruna.png',
+        img: {
+            path: '../assets/paint.png',
+            width: "90%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -58,7 +79,10 @@ projects = [
     {
         id: 8,
         title: "querto",
-        img: '../assets/docs.png',
+        img: {
+            path: '../assets/portfolio.png',
+            width: "60%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -66,7 +90,10 @@ projects = [
     {
         id: 9,
         title: "primeiro",
-        img: '../assets/flashcard.png',
+        img: {
+            path: '../assets/docs.png',
+            width: "90%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -74,7 +101,10 @@ projects = [
     {
         id: 10,
         title: "segundo",
-        img: '../assets/forex.png',
+        img: {
+            path: '../assets/dashboard.png',
+            width: "90%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -82,7 +112,10 @@ projects = [
     {
         id: 11,
         title: "terceiro",
-        img: '../assets/trader.png',
+        img: {
+            path: '../assets/audrey.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -90,7 +123,10 @@ projects = [
     {
         id: 12,
         title: "querto",
-        img: '../assets/login.png',
+        img: {
+            path: '../assets/trader.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -98,7 +134,10 @@ projects = [
     {
         id: 13,
         title: "primeiro",
-        img: '../assets/morse.png',
+        img: {
+            path: '../assets/renale.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -106,7 +145,10 @@ projects = [
     {
         id: 14,
         title: "segundo",
-        img: '../assets/nefroatlas.png',
+        img: {
+            path: '../assets/phone.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -114,7 +156,10 @@ projects = [
     {
         id: 15,
         title: "terceiro",
-        img: '../assets/phone.png',
+        img: {
+            path: '../assets/flashcard.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -122,7 +167,10 @@ projects = [
     {
         id: 16,
         title: "querto",
-        img: '../assets/portfolio.png',
+        img: {
+            path: '../assets/surf.png',
+            width: "60%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -130,7 +178,10 @@ projects = [
     {
         id: 17,
         title: "primeiro",
-        img: '../assets/quarkdocs.png',
+        img: {
+            path: '../assets/morse.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -138,7 +189,10 @@ projects = [
     {
         id: 18,
         title: "segundo",
-        img: '../assets/renale.png',
+        img: {
+            path: '../assets/login.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -146,7 +200,10 @@ projects = [
     {
         id: 19,
         title: "terceiro",
-        img: '../assets/surf.png',
+        img: {
+            path: '../assets/airplane.png',
+            width: "100%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -154,7 +211,10 @@ projects = [
     {
         id: 20,
         title: "terceiro",
-        img: '../assets/rocketseat.png',
+        img: {
+            path: '../assets/rocketseat.png',
+            width: "90%"
+        },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
         lvl: 'starter'
@@ -163,20 +223,37 @@ projects = [
 ]
 
 id = 0
-
+loaded = 5
 
 function load() {
 
     var myVar = setInterval(()=>{
-        if(id == projects.length) {
+        if(id === loaded) {
             clearInterval(myVar)
         }
         else {
             addProject(projects[id])
+            id ++;
         }
-        id ++;
-    }, 1000);
+    }, 700);
+    if(loaded ==  10) {
+        document.getElementById('more').innerHTML = "See All"
+    }
+}
 
+function loadAll() {
+    loaded = projects.length
+    load()
+}
+
+function more () {
+    if(loaded ==  10) {
+        window.location.replace ("pages/seeAll.html")
+    }
+    else {
+        loaded+=5
+        load()
+    }
 }
 
 function addProject(project) {
@@ -184,16 +261,14 @@ function addProject(project) {
     let works = document.getElementById('works')
 
     const content = `
-        <div class="card-project fade-in" id="project0${project.id}">
-            <div class="card-img" style="background-image: url(${project.img})"></div>
+        <div class="card-project fade-in" id="project${project.id}" onclick="details(${project.id})">
+            <div class="card-img" style="background-image: url(${project.img.path})"></div>
 
             <div class="card-content">
                 <h3>${project.title}</h3>
                 <p>${project.description}</p>
                 <div class="tag">
                     <p>${project.tag}</p>
-
-                    <span class="level">${project.lvl}</span>
                 </div>
             </div>
         </div>
@@ -202,13 +277,43 @@ function addProject(project) {
         works.innerHTML+=content
 
         setTimeout(() => {
-            var removeFade = document.getElementById('project0'+project.id)
+            var removeFade = document.getElementById('project'+project.id)
             removeFade.classList.remove('fade-in')
-        }, 1000);
+        }, 650);
 }
 
+function details(id) {
+    
+    url = window.location.pathname
 
-function myTimer() {
-  var d = new Date();
-  document.getElementById("demo").innerHTML += d.toLocaleTimeString();
+    if( url == "/index.html" ) {
+        window.location.href ="pages/details.html?project_id="+id
+    }
+    else {
+        window.location.href ="details.html?project_id="+id
+    }
+
+}
+
+function projectInfo() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = Number(urlParams.get('project_id'));
+
+    let project_div = document.getElementById('project_about')
+    
+    let project = projects[id-1]
+    
+    project_div.innerHTML = `
+        <div class="container">
+            <div class="info">
+                <h1>${project.title}</h1>
+                <p>${project.description}</p>
+            </div>
+            <div class="img">
+                <img src="${project.img.path}" alt="project" width="${project.img.width}">
+            </div>
+        </div>
+    `
+
+    console.log(id);
 }
