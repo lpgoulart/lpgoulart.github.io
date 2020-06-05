@@ -31,6 +31,134 @@ projects = [
         tag: 'HTML, CSS',
         lvl: 'starter'
     },
+    {
+        id: 5,
+        title: "primeiro",
+        img: '../assets/airplane.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },   
+    {
+        id: 6,
+        title: "segundo",
+        img: '../assets/audrey.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 7,
+        title: "terceiro",
+        img: '../assets/bruna.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 8,
+        title: "querto",
+        img: '../assets/docs.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 9,
+        title: "primeiro",
+        img: '../assets/flashcard.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },   
+    {
+        id: 10,
+        title: "segundo",
+        img: '../assets/forex.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 11,
+        title: "terceiro",
+        img: '../assets/trader.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 12,
+        title: "querto",
+        img: '../assets/login.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 13,
+        title: "primeiro",
+        img: '../assets/morse.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },   
+    {
+        id: 14,
+        title: "segundo",
+        img: '../assets/nefroatlas.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 15,
+        title: "terceiro",
+        img: '../assets/phone.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 16,
+        title: "querto",
+        img: '../assets/portfolio.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 17,
+        title: "primeiro",
+        img: '../assets/quarkdocs.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },   
+    {
+        id: 18,
+        title: "segundo",
+        img: '../assets/renale.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 19,
+        title: "terceiro",
+        img: '../assets/surf.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 20,
+        title: "terceiro",
+        img: '../assets/rocketseat.png',
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
 
 ]
 
