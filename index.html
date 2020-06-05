@@ -6,13 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet/less" type="text/css" href="./css/styles.less" />
+  <link rel="stylesheet/less" type="text/css" href="./css/navbar.less" />
 
 </head>
     <body onload="load()">
     <!-- <body> -->
         <div id="page">
 
-            <section id="works" class="challenges"></section>
+            <div class="navbar">
+
+                <span class="navbar-toggle" onclick="toggle()">
+                    <span style="color: black;">&#9776;</span>
+                </span>
+              
+                <h2 style="cursor: pointer;">
+                  <span>LG</span>
+                </h2>
+              
+                <nav id="menuBar">
+                  <ul>
+                    <li onclick="toggle()">HOME</li>
+                    <li onclick="toggle(); showAll()">PROJECTS</li>
+                    <li onclick="toggle()">ABOUT</li>
+                  </ul>
+                </nav>
+              
+              </div>
+
+            <section style="text-align: center;">
+                <h2>
+                    Projects Done so far
+                </h2>
+                <div id="works" class="challenges"></div>
+            </section>
+
         </div>
         <div style="text-align: center;">
             <button id="more" onclick="more()">more</button>

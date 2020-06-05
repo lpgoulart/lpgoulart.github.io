@@ -59,7 +59,7 @@ projects = [
         title: "segundo",
         img: {
             path: '../assets/bruna.png',
-            width: "70%"
+            width: "60%"
         },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
@@ -70,7 +70,7 @@ projects = [
         title: "terceiro",
         img: {
             path: '../assets/paint.png',
-            width: "90%"
+            width: "70%"
         },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
@@ -81,7 +81,7 @@ projects = [
         title: "querto",
         img: {
             path: '../assets/portfolio.png',
-            width: "60%"
+            width: "45%"
         },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
@@ -92,7 +92,7 @@ projects = [
         title: "primeiro",
         img: {
             path: '../assets/docs.png',
-            width: "90%"
+            width: "70%"
         },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
@@ -103,7 +103,7 @@ projects = [
         title: "segundo",
         img: {
             path: '../assets/dashboard.png',
-            width: "90%"
+            width: "70%"
         },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
@@ -169,7 +169,7 @@ projects = [
         title: "querto",
         img: {
             path: '../assets/surf.png',
-            width: "60%"
+            width: "45%"
         },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
@@ -213,7 +213,7 @@ projects = [
         title: "terceiro",
         img: {
             path: '../assets/rocketseat.png',
-            width: "90%"
+            width: "70%"
         },
         description: 'akjshdkajsdasdasd',
         tag: 'HTML, CSS',
@@ -314,6 +314,26 @@ function projectInfo() {
             </div>
         </div>
     `
-
-    console.log(id);
 }
+
+function showAll() {
+    window.location.replace ("pages/seeAll.html");
+}
+
+function toggle() {
+    let menu = document.getElementById('menuBar');
+
+    if( !menu.classList.contains("animationIn") && !menu.classList.contains("animationOut") ) {
+      menu.classList.toggle('animationIn')
+      menu.classList.toggle('show')
+    } else if ( menu.classList.contains("animationIn") ) {
+      menu.classList.remove('animationIn')
+      menu.classList.add('animationOut')
+      setTimeout(()=> {menu.classList.toggle('show')}, 200)      
+    } else {
+      menu.classList.add('animationIn')
+      menu.classList.remove('animationOut')
+      menu.classList.toggle('show')
+    }
+
+  }
