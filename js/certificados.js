@@ -18,7 +18,24 @@ certificates = [
     {
         id: 5,
         path: '../assets/certificados/respcamp.png'
-    }
+    },
+    {
+        id: 6,
+        path: '../assets/certificados/html.png'
+    },
+    {
+        id: 7,
+        path: '../assets/certificados/vue.png'
+    },
+    {
+        id: 8,
+        path: '../assets/certificados/web.png'
+    },
+    {
+        id: 9,
+        path: '../assets/certificados/oraclealura.png'
+    },
+
 ]
 
 id = 0
