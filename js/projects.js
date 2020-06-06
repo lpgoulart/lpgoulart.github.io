@@ -333,6 +333,7 @@ function loadMain() {
         else {
             _newProject = newProjectId()
             if ( loadedProjects.includes(_newProject) ){ 
+                console.log('repetiu')
                 load()
             }
             else {
