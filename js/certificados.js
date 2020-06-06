@@ -56,7 +56,7 @@ function detailCertificate(id) {
         <div class="modal-content">
             <span class="close">&times;</span>
             <div id="certificado" style="color: black;">
-                <img src="${certificado.path}" width="100%" />
+                <img src="../assets/${certificado.path}" width="100%" />
             </div>
         </div>
     `
