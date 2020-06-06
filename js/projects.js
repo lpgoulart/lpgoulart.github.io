@@ -224,6 +224,12 @@ projects = [
 
 id = 0
 loaded = 5
+timer = 700
+
+function setTimer(time) {
+    timer = time
+    console.log(timer)
+}
 
 function load() {
 
@@ -234,11 +240,15 @@ function load() {
         else {
             addProject(projects[id])
             id ++;
+            if ( id == projects.length/2 ) {
+                document.getElementById('loading').classList.add("hide")
+            }
         }
-    }, 700);
+    }, timer);
     if(loaded ==  10) {
         document.getElementById('more').innerHTML = "See All"
     }
+    
 }
 
 function loadAll() {
@@ -279,14 +289,16 @@ function addProject(project) {
         setTimeout(() => {
             var removeFade = document.getElementById('project'+project.id)
             removeFade.classList.remove('fade-in')
-        }, 650);
+        }, timer-50);
+
 }
 
 function details(id) {
     
     url = window.location.pathname
 
-    if( url == "/index.html" || url == "") {
+
+    if( url == "/index.html" || url == "/") {
         window.location.href ="pages/details.html?project_id="+id
     }
     else {
@@ -318,6 +330,9 @@ function projectInfo() {
 
 function showAll() {
     window.location.replace ("pages/seeAll.html");
+}
+function home() {
+    window.location.replace ("/index.html");
 }
 
 function toggle() {
