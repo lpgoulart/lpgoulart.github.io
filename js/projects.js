@@ -329,10 +329,13 @@ function projectInfo() {
 }
 
 function showAll() {
-    window.location.replace ("pages/seeAll.html");
+    window.location.pathname = "pages/seeAll.html";
 }
 function home() {
-    window.location.replace ("/index.html");
+    window.location.pathname = "/";
+}
+function showCert() {
+    window.location.pathname = "pages/certificates.html";
 }
 
 function toggle() {
