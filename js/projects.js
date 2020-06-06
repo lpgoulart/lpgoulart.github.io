@@ -311,6 +311,26 @@ function load() {
             clearInterval(myVar)
         }
         else {
+            addProject(projects[id])
+            id ++;
+            if ( id == projects.length/2 ) {
+                document.getElementById('loading').classList.add("hide")
+            }
+        }
+    }, timer);
+    if(loaded ==  10) {
+        document.getElementById('more').innerHTML = "See All"
+    }
+    
+}
+
+function loadMain() {
+
+    var myVar = setInterval(()=>{
+        if(id === loaded) {
+            clearInterval(myVar)
+        }
+        else {
             _newProject = newProjectId()
             if ( loadedProjects.includes(_newProject) ){ 
                 load()
