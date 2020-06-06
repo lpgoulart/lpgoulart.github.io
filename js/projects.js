@@ -222,6 +222,46 @@ projects = [
 
 ]
 
+certificates = [
+    {
+        id: 1,
+        path: 'certificados/embc.png'
+    },
+    {
+        id: 2,
+        path: 'certificados/angular.png'
+    },
+    {
+        id: 3,
+        path: 'certificados/seo.png'
+    },
+    {
+        id: 4,
+        path: 'certificados/frontcamp.png'
+    },
+    {
+        id: 5,
+        path: 'certificados/respcamp.png'
+    },
+    {
+        id: 6,
+        path: 'certificados/html.png'
+    },
+    {
+        id: 7,
+        path: 'certificados/vue.png'
+    },
+    {
+        id: 8,
+        path: 'certificados/web.png'
+    },
+    {
+        id: 9,
+        path: 'certificados/oraclealura.png'
+    },
+
+]
+
 id = 0
 loaded = 5
 timer = 700
@@ -229,6 +269,42 @@ timer = 700
 function setTimer(time) {
     timer = time
     console.log(timer)
+}
+
+function getRandomCertificates() {
+    c1 = certificates[Math.floor(Math.random() * certificates.length)]
+    c2 = certificates[Math.floor(Math.random() * certificates.length)]
+    c3 = certificates[Math.floor(Math.random() * certificates.length)]
+}
+
+function loadCerti() {
+
+    getRandomCertificates()
+
+    if ( c1.id == c2.id || c1.id == c3.id || c2.id == c3.id ) {
+        getRandomCertificates()
+    }
+    if ( c1.id == c2.id || c1.id != c3.id || c2.id != c3.id ) {
+        getRandomCertificates()
+    }
+    if ( c1.id == c2.id || c1.id != c3.id || c2.id != c3.id ) {
+        getRandomCertificates()
+    }
+    if ( c1.id != c2.id || c1.id != c3.id || c2.id == c3.id ) {
+        getRandomCertificates()
+    }
+
+    const certi = document.getElementById('certificados')
+    const content = `
+        <span><img src="./assets/${c1.path}" alt="" width="70%"></span>
+        <span><img src="./assets/${c2.path}" alt="" width="70%"></span>
+        <span><img src="./assets/${c3.path}" alt="" width="70%"></span>
+        
+        <span>
+            <a class="btn" href="pages/certificates.html">MORE</a>
+        </span>
+    `
+    certi.innerHTML = content
 }
 
 function load() {

@@ -1,43 +1,3 @@
-certificates = [
-    {
-        id: 1,
-        path: '../assets/certificados/embc.png'
-    },
-    {
-        id: 2,
-        path: '../assets/certificados/angular.png'
-    },
-    {
-        id: 3,
-        path: '../assets/certificados/seo.png'
-    },
-    {
-        id: 4,
-        path: '../assets/certificados/frontcamp.png'
-    },
-    {
-        id: 5,
-        path: '../assets/certificados/respcamp.png'
-    },
-    {
-        id: 6,
-        path: '../assets/certificados/html.png'
-    },
-    {
-        id: 7,
-        path: '../assets/certificados/vue.png'
-    },
-    {
-        id: 8,
-        path: '../assets/certificados/web.png'
-    },
-    {
-        id: 9,
-        path: '../assets/certificados/oraclealura.png'
-    },
-
-]
-
 id = 0
 loaded = 5
 
@@ -72,7 +32,7 @@ function addCertificados(certificado) {
 
     const content = `
         <div class="cert-info fade-in" id="certificado${certificado.id}" onclick="detailCertificate(${certificado.id})">
-            <img src="${certificado.path}" width="100%" />
+            <img src="../assets/${certificado.path}" width="100%" />
         </div>
         `
 
