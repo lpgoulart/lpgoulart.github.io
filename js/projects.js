@@ -265,6 +265,7 @@ certificates = [
 id = 0
 loaded = 5
 timer = 700
+loadedProjects = []
 
 function setTimer(time) {
     timer = time
@@ -276,6 +277,11 @@ function getRandomCertificates() {
     c2 = certificates[Math.floor(Math.random() * certificates.length)]
     c3 = certificates[Math.floor(Math.random() * certificates.length)]
 }
+
+function newProjectId() {
+    return Math.floor(Math.random() * projects.length)
+}
+
 
 function loadCerti() {
 
@@ -305,10 +311,17 @@ function load() {
             clearInterval(myVar)
         }
         else {
-            addProject(projects[id])
-            id ++;
-            if ( id == projects.length/2 ) {
-                document.getElementById('loading').classList.add("hide")
+            _newProject = newProjectId()
+            if ( loadedProjects.includes(_newProject) ){ 
+                load()
+            }
+            else {
+                loadedProjects.push(_newProject)
+                addProject(projects[_newProject])
+                id ++;
+                if ( id == projects.length/2 ) {
+                    document.getElementById('loading').classList.add("hide")
+                }
             }
         }
     }, timer);
