@@ -257,7 +257,31 @@ certificates = [
     },
     {
         id: 9,
-        path: 'certificados/oraclealura.png'
+        path: 'certificados/angular2.jpg'
+    },
+    {
+        id: 10,
+        path: 'certificados/data.png'
+    },
+    {
+        id: 11,
+        path: 'certificados/front2.jpg'
+    },
+    {
+        id: 12,
+        path: 'certificados/gft.jpg'
+    },
+    {
+        id: 13,
+        path: 'certificados/java.jpg'
+    },
+    {
+        id: 14,
+        path: 'certificados/react2.jpg'
+    },
+    {
+        id: 15,
+        path: 'certificados/scrum.jpg'
     },
 
 ]
