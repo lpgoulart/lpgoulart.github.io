@@ -286,7 +286,7 @@ function details(id) {
     
     url = window.location.pathname
 
-    if( url == "/index.html" ) {
+    if( url == "/index.html" || url == "") {
         window.location.href ="pages/details.html?project_id="+id
     }
     else {
