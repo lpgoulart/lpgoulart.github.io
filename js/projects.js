@@ -284,15 +284,6 @@ function loadCerti() {
     if ( c1.id == c2.id || c1.id == c3.id || c2.id == c3.id ) {
         getRandomCertificates()
     }
-    if ( c1.id == c2.id || c1.id != c3.id || c2.id != c3.id ) {
-        getRandomCertificates()
-    }
-    if ( c1.id == c2.id || c1.id != c3.id || c2.id != c3.id ) {
-        getRandomCertificates()
-    }
-    if ( c1.id != c2.id || c1.id != c3.id || c2.id == c3.id ) {
-        getRandomCertificates()
-    }
 
     const certi = document.getElementById('certificados')
     const content = `
