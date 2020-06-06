@@ -1,18 +1,18 @@
 projects = [
     {
         id: 1,
-        title: "primeiro",
+        title: "DevImprove",
         img: {
             path: '../assets/dev.png',
             width: "100%"
         },
-        description: 'akjshdkajsdasdasd',
+        description: 'asdasdlkjd;flkajsdf;asjdfkjhasgdfkajshd',
         tag: 'HTML, CSS',
         lvl: 'starter'
     },   
     {
         id: 2,
-        title: "segundo",
+        title: "Mexican Tourism",
         img: {
             path: '../assets/mexico.png',
             width: "100%"
@@ -23,7 +23,7 @@ projects = [
     },
     {
         id: 3,
-        title: "terceiro",
+        title: "Nefroatlas",
         img: {
             path: '../assets/nefroatlas.png',
             width: "100%"
@@ -34,7 +34,7 @@ projects = [
     },
     {
         id: 4,
-        title: "querto",
+        title: "Lion Forex Robot",
         img: {
             path: '../assets/forex.png',
             width: "100%"
@@ -45,7 +45,7 @@ projects = [
     },
     {
         id: 5,
-        title: "primeiro",
+        title: "QuarkDocs",
         img: {
             path: '../assets/quarkdocs.png',
             width: "100%"
@@ -56,7 +56,7 @@ projects = [
     },   
     {
         id: 6,
-        title: "segundo",
+        title: "Bruna's Portfolio",
         img: {
             path: '../assets/bruna.png',
             width: "60%"
@@ -67,7 +67,7 @@ projects = [
     },
     {
         id: 7,
-        title: "terceiro",
+        title: "Paint Enterprise Portfolio",
         img: {
             path: '../assets/paint.png',
             width: "70%"
@@ -78,7 +78,7 @@ projects = [
     },
     {
         id: 8,
-        title: "querto",
+        title: "Old Portfolio",
         img: {
             path: '../assets/portfolio.png',
             width: "45%"
@@ -89,7 +89,7 @@ projects = [
     },
     {
         id: 9,
-        title: "primeiro",
+        title: "File Based Website",
         img: {
             path: '../assets/docs.png',
             width: "70%"
@@ -100,7 +100,7 @@ projects = [
     },   
     {
         id: 10,
-        title: "segundo",
+        title: "Simple Dashboard",
         img: {
             path: '../assets/dashboard.png',
             width: "70%"
@@ -111,7 +111,7 @@ projects = [
     },
     {
         id: 11,
-        title: "terceiro",
+        title: "Audrey's Portfolio",
         img: {
             path: '../assets/audrey.png',
             width: "100%"
@@ -122,7 +122,7 @@ projects = [
     },
     {
         id: 12,
-        title: "querto",
+        title: "Lion Forex Trader",
         img: {
             path: '../assets/trader.png',
             width: "100%"
@@ -133,7 +133,7 @@ projects = [
     },
     {
         id: 13,
-        title: "primeiro",
+        title: "Renale Clinic",
         img: {
             path: '../assets/renale.png',
             width: "100%"
@@ -144,7 +144,7 @@ projects = [
     },   
     {
         id: 14,
-        title: "segundo",
+        title: "Phone Based Portfolio",
         img: {
             path: '../assets/phone.png',
             width: "100%"
@@ -155,7 +155,7 @@ projects = [
     },
     {
         id: 15,
-        title: "terceiro",
+        title: "Flashcard System",
         img: {
             path: '../assets/flashcard.png',
             width: "100%"
@@ -166,7 +166,7 @@ projects = [
     },
     {
         id: 16,
-        title: "querto",
+        title: "Surf Style Portfolio",
         img: {
             path: '../assets/surf.png',
             width: "45%"
@@ -177,7 +177,7 @@ projects = [
     },
     {
         id: 17,
-        title: "primeiro",
+        title: "Morse Code Translator",
         img: {
             path: '../assets/morse.png',
             width: "100%"
@@ -188,7 +188,7 @@ projects = [
     },   
     {
         id: 18,
-        title: "segundo",
+        title: "Login Project",
         img: {
             path: '../assets/login.png',
             width: "100%"
@@ -199,7 +199,7 @@ projects = [
     },
     {
         id: 19,
-        title: "terceiro",
+        title: "Airplane Game",
         img: {
             path: '../assets/airplane.png',
             width: "100%"
@@ -210,7 +210,7 @@ projects = [
     },
     {
         id: 20,
-        title: "terceiro",
+        title: "Simple React App",
         img: {
             path: '../assets/rocketseat.png',
             width: "70%"
@@ -275,10 +275,10 @@ function addProject(project) {
             <div class="card-img" style="background-image: url(${project.img.path})"></div>
 
             <div class="card-content">
-                <h3>${project.title}</h3>
+                <h3 style="color: #0F0">${project.title}</h3>
                 <p>${project.description}</p>
                 <div class="tag">
-                    <p>${project.tag}</p>
+                    <p style="color: #0F0">${project.tag}</p>
                 </div>
             </div>
         </div>
@@ -434,6 +434,6 @@ function typing() {
   // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
-  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  css.innerHTML = "";
   document.body.appendChild(css);
 };
