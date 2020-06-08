@@ -23,9 +23,9 @@ projects = [
     },
     {
         id: 3,
-        title: "Nefroatlas",
+        title: "Mercedes",
         img: {
-            path: '../assets/nefroatlas.png',
+            path: '../assets/mercedes.png',
             width: "100%"
         },
         description: 'akjshdkajsdasdasd',
@@ -213,6 +213,17 @@ projects = [
         title: "Simple React App",
         img: {
             path: '../assets/rocketseat.png',
+            width: "70%"
+        },
+        description: 'akjshdkajsdasdasd',
+        tag: 'HTML, CSS',
+        lvl: 'starter'
+    },
+    {
+        id: 21,
+        title: "Nefroatlas",
+        img: {
+            path: '../assets/nefroatlas.png',
             width: "70%"
         },
         description: 'akjshdkajsdasdasd',
