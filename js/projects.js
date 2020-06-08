@@ -253,11 +253,11 @@ certificates = [
     },
     {
         id: 8,
-        path: 'certificados/web.png'
+        path: 'certificados/oraclealura.png'
     },
     {
         id: 9,
-        path: 'certificados/angular2.jpg'
+        path: 'certificados/web.png'
     },
     {
         id: 10,
@@ -265,22 +265,26 @@ certificates = [
     },
     {
         id: 11,
-        path: 'certificados/front2.jpg'
+        path: 'certificados/angular2.jpg'
     },
     {
         id: 12,
-        path: 'certificados/gft.jpg'
+        path: 'certificados/front2.jpg'
     },
     {
         id: 13,
-        path: 'certificados/java.jpg'
+        path: 'certificados/gft.jpg'
     },
     {
         id: 14,
-        path: 'certificados/react2.jpg'
+        path: 'certificados/java.jpg'
     },
     {
         id: 15,
+        path: 'certificados/react2.jpg'
+    },
+    {
+        id: 16,
         path: 'certificados/scrum.jpg'
     },
 
