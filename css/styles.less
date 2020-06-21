@@ -38,27 +38,20 @@ body, html {
       transform: rotate(360deg);
     }
 }
-
-/* width */
 ::-webkit-scrollbar {
     width: 5px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
-    background: transparent;
+    background: black;
 }
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, .7);
     border-radius: 10px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, .5);
 }
+
 
 canvas {
     margin: 0 auto;
@@ -83,7 +76,44 @@ canvas {
     }
 }
 
+.label-top {
+    position: absolute;
+    height: 140px;
+    top: -140px;
+    overflow: hidden;
+    width: 100%;
+
+    .top {
+        width: 100%;
+        position: relative;
+        top: 60px;
+        height: 200px;
+        background-color: black;
+        transform: skew(0deg, -3deg);
+        // border-radius: 100px;
+    }
+}
+
+.label-down {
+    position: absolute;
+    height: 140px;
+    bottom: -140px;
+    overflow: hidden;
+    width: 100%;
+
+    .down {
+        width: 100%;
+        position: relative;
+        top: -120px;
+        height: 200px;
+        background-color: black;
+        transform: skew(-0deg, 3deg);
+        // border-radius: 100px;
+    }
+}
+
 .presentation {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,7 +142,7 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 60px 0;
+    padding: 100px 0;
     color: white;
 
     .xp {
@@ -209,10 +239,12 @@ canvas {
 }
 
 .certificados {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 60px 0;
+    margin: 140px 0;
     color: white;
     background-color:black;
 
@@ -241,6 +273,43 @@ canvas {
 
     
     }
+
+    .label-top {
+        position: absolute;
+        height: 140px;
+        top: -140px;
+        overflow: hidden;
+        width: 100%;
+    
+        .top {
+            width: 100%;
+            position: relative;
+            top: 60px;
+            height: 200px;
+            background-color: black;
+            transform: skew(-0deg, 3deg);
+            // border-radius: 100px;
+        }
+    }
+    
+    .label-down {
+        position: absolute;
+        height: 140px;
+        bottom: -140px;
+        overflow: hidden;
+        width: 100%;
+    
+        .down {
+            width: 100%;
+            position: relative;
+            top: -120px;
+            height: 200px;
+            background-color: black;
+            transform: skew(0deg, -3deg);
+            // border-radius: 100px;
+        }
+    }
+    
 }
 
 #works {
