@@ -1,13 +1,16 @@
 import './App.css';
-import { Link, Routes, BrowserRouter as Router, } from 'react-router-dom';
+import { Link, Routes, BrowserRouter as Router, Route, } from 'react-router-dom';
+import Landing from './pages/landing';
 
 const App = () => {
 
   return (
     <>
-      <a href='/calculator'>
-        calculator
-      </a>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Landing />} />
+        </Routes>
+      </Router>
     </>
   );
 }
