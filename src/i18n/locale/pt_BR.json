@@ -1,0 +1,23 @@
+{
+    "header": {
+        "title": "Header"
+    },
+    "opening": {
+        "title": "Headline"
+    },
+    "about": {
+        "title": "Sobre"
+    },
+    "projects": {
+        "title": "Projetos"
+    },
+    "experiences": {
+        "title": "Experiências"
+    },
+    "certificates": {
+        "title": "Certificadps"
+    },
+    "footer": {
+        "title": "Rodapé"
+    }
+}

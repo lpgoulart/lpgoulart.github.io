@@ -1,0 +1,23 @@
+{
+    "header": {
+        "title": "About"
+    },
+    "opening": {
+        "title": "Opening"
+    },
+    "about": {
+        "title": "About"
+    },
+    "projects": {
+        "title": "Projects"
+    },
+    "experiences": {
+        "title": "Experiences"
+    },
+    "certificates": {
+        "title": "Certificates"
+    },
+    "footer": {
+        "title": "Footer"
+    }
+}

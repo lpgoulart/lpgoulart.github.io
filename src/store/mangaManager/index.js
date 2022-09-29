@@ -41,6 +41,7 @@ const nameList = [
 const slice = createSlice({
   name: 'api',
   initialState: {
+    theme: true
     
   },
   reducers: {
@@ -52,6 +53,9 @@ const slice = createSlice({
     },
     fetchError(state, action) {
       
+    },
+    changeTheme(state) {
+      state.theme = !state.theme
     }
   },
 });
@@ -60,6 +64,7 @@ export const {
   fetchStarted,
   fetchSuccess,
   fetchError,
+  changeTheme
 } = slice.actions;
 
 export const fetchData = () => (dispatch) => {
