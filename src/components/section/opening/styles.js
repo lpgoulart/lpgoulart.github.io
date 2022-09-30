@@ -2,8 +2,10 @@ import styled from 'styled-components';
 import Tokens from '../../../assets/tokens';
 
 export const SunMoon = styled.div`
-    width: 10rem;
-    height: 10rem;
+    width: 10vw;
+    height: 10vw;
+    max-width: 10rem;
+    max-height: 10rem;
     border-radius: 50%;
     background: ${props=>props.themeSelected
         ? "#fff77e"
@@ -16,10 +18,10 @@ export const SunMoon = styled.div`
     position: absolute;
     top: ${props=>props.themeSelected
                     ? "0"
-                    : "1rem"};
+                    : "1vw"};
     left: ${props=>props.themeSelected
-                    ? "1rem"
-                    : "calc(100% - 11.5rem)"};
+                    ? "2vw"
+                    : "calc(100% - 14vw)"};
 `;
 
 export const ThemeEffectContainer = styled.div`
@@ -56,7 +58,7 @@ export const Content = styled.div`
 
 export const NeonTitle = styled.div`
     font-size: 32px;
-    animation: flicker 1.5s infinite alternate;     
+    animation: flicker 2s infinite alternate;     
 
     @keyframes flicker {
         0%, 18%, 22%, 25%, 53%, 57%, 100% {

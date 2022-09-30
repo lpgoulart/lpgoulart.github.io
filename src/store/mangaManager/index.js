@@ -69,6 +69,10 @@ export const {
 
 export const fetchData = () => (dispatch) => {
     dispatch(fetchStarted());
+    axios
+      .get("https://api.steampowered.com/IPlayerService/GetOwnedGames/v1/?key=4D8B26C3B5AC4EA3CB50451092A9B77E&steamid=76561198271281098&skip_unvetted_apps=0&include_appinfo=1")
+      .then(response=>console.log(response))
+      .catch(err=>console.log(err))
 }
 
 

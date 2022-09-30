@@ -19,7 +19,7 @@ const Opening = () => {
                 <SunMoon themeSelected={theme} />
             </ThemeEffectContainer>
             <Content>
-                <NeonTitle>
+                <NeonTitle themeSelected={theme}>
                     {t("opening.title")}
                 </NeonTitle>
             </Content>

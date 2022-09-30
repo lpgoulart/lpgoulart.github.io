@@ -12,11 +12,9 @@ const I18n = () => {
   return (
     <div>
       <button
-        isSelected={selectedLanguage === 'pt_BR'}
         onClick={() => handleChangeLanguage('pt_BR')}
       >br</button>
       <button
-        isSelected={selectedLanguage === 'en_US'}
         onClick={() => handleChangeLanguage('en_US')}
       >en</button>
     </div>
